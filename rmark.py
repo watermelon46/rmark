@@ -61,7 +61,7 @@ logger.log('rMark 1.0.1 loaded')
 
 logger.info(f'Configuration: {numbers} factors, verbose: {verbose}')
 
-print("rBenchmark 1.0.1")
+print("rMark 1.0.1")
 
 print(f"Starting benchmark with numbers={numbers} and mode={mode}")
 
@@ -87,6 +87,6 @@ logger.log('Testing ended. Result: {totaltime}')
 
 print(jli.sinfo)
 
-print(f'rBench points: {totaltime}')
+print(f'rMark points: {totaltime}')
 
 logger.log('Exiting...')
