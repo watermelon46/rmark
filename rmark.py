@@ -83,7 +83,7 @@ endtime = round(time.time() * 1000)
 
 totaltime = endtime - starttime
 
-logger.log('Testing ended. Result: {totaltime}')
+logger.log(f'Testing ended. Result: {totaltime}')
 
 print(jli.sinfo)
 
